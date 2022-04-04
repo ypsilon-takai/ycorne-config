@@ -61,9 +61,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &none         &kp EXCL &kp AT   &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR       &kp BSPC
-   &out OUT_BLE  &none    &kp LBKT &kp RBKT  &kp LPAR  &kp RPAR    &none    &kp LEFT        &kp UP     &kp RIGHT &kp SLASH      &kp DEL
-   &out OUT_USB  &none    &none    &none     &kp LBRC  &kp RBRC    &none    &kp LEFT        &kp DOWN   &kp RIGHT &kp BACKSLASH  &kp INS
+   &none         &kp EXCL &kp AT   &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR      &kp BSPC
+   &none         &none    &kp LBKT &kp RBKT  &kp LPAR  &kp RPAR    &none    &kp LEFT        &kp UP     &kp RIGHT &kp SLASH      &kp DEL
+   &none         &none    &none    &none     &kp LBRC  &kp RBRC    &none    &kp LEFT        &kp DOWN   &kp RIGHT &kp BACKSLASH  &kp INS
                               &trans &trans   &trans   &trans   &trans    &trans
                         >;
                 };
@@ -73,7 +73,7 @@
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
                         bindings = <
-   &none      &none       &none          &none         &bt BT_CLR    &none         &none   &none   &none  &none  &none  &none
+   &none      &none        &none         &none         &bt BT_CLR    &none         &none   &none   &none  &none  &none  &none
    &none      &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none   &none   &none  &none  &none  &ext_power EP_ON
    &none      &out OUT_BLE &out OUT_USB  &none         &none         &none         &none   &none   &none  &none  &none  &ext_power EP_OFF
                               &trans &trans   &trans   &trans   &trans    &trans
