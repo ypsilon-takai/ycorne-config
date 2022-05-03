@@ -1,0 +1,5 @@
+config SHIELD_YCORNE_LEFT
+        def_bool $(shields_list_contains,ycorne_left)
+
+config SHIELD_YCORNE_RIGHT
+        def_bool $(shields_list_contains,ycorne_right)
